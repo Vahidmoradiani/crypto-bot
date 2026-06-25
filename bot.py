@@ -138,16 +138,7 @@ def get_top_40_manual():
         })
     
     print(f"📋 {len(coins)} رمز ارز از لیست دستی بارگذاری شد")
-    return coins
-
-print("🚀 ربات سیگنال‌گیری شروع شد!")
-print(f"⏰ {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-print("="*50)
-
-send("🤖 <b>ربات سیگنال‌گیری روشن شد!</b>\n"
-     "📊 استراتژی: حمایت/مقاومت ساده\n"
-     "⏱️ تایم فریم: ۱ ساعت و ۴ ساعت\n"
-     "🪙 تعداد رمز ارزها: ۴۰")
+    return coin
 
 while True:
     try:
